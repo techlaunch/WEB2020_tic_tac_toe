@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <table id="board" border="1">
+        <tr>
+            <td id="topLeft" onclick="move(this)"></td>
+            <td id="topCenter" onclick="move(this)"></td>
+            <td id="topRight" onclick="move(this)"></td>
+        </tr>
+        <tr>
+            <td id="mediumLeft" onclick="move(this)"></td>
+            <td id="mediumCenter" onclick="move(this)"></td>
+            <td id="mediumRight" onclick="move(this)"></td>
+        </tr>
+        <tr>
+            <td id="bottomLeft" onclick="move(this)"></td>
+            <td id="bottomCenter" onclick="move(this)"></td>
+            <td id="bottomRight" onclick="move(this)"></td>
+        </tr>
+    </table>
+
+    <!--include non-blocking js-->
+    <script src="main.js"></script>
+</body>
+
+</html>
